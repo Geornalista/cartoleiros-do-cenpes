@@ -76,6 +76,8 @@ def figura1(dado,scout):
     rects = ax.patches
     for rect, label in zip(rects, dado):
         height = rect.get_height()
+        if height < 1.5:
+          height 0.5
         ax.text(
             rect.get_x() + rect.get_width() / 2, 0.85*height, label, ha="center", va="bottom",
             color='white',fontsize=20
