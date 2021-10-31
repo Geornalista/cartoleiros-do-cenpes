@@ -1,1 +1,1 @@
-sweb: sh setup.sh && streamlit run cenpesFC.py
+web: sh setup.sh && streamlit run cenpesFC.py
