@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-import requests
-import json
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
@@ -92,15 +90,15 @@ for i in range(rodada_atual):
   rods.append(i+1)
 
 files = {
-         'GEORGE':'./DADOS/george.xlsx',
-         'XINGU':'./DADOS/xingu.xlsx',
-         'LEO':'./DADOS/leo.xlsx',
-         'VITOR':'./DADOS/vitor.xlsx',
-         'RAFAEL':'./DADOS/rafael.xlsx',
+         'GEORGE':'./DADOS/george.csv',
+         'XINGU':'./DADOS/xingu.csv',
+         'LEO':'./DADOS/leo.csv',
+         'VITOR':'./DADOS/vitor.csv',
+         'RAFAEL':'./DADOS/rafael.csv',
         }
 
 for user in files:
-    tmp = pd.read_excel(files[user])
+    tmp = pd.read_csv(files[user])
     tmp.drop('Unnamed: 0',axis=1,inplace=True)
 
     if user == 'GEORGE':
