@@ -90,11 +90,11 @@ for i in range(rodada_atual):
   rods.append(i+1)
 
 files = {
-         'GEORGE':'./DADOS/george.csv',
-         'XINGU':'./DADOS/xingu.csv',
-         'LEO':'./DADOS/leo.csv',
-         'VITOR':'./DADOS/vitor.csv',
-         'RAFAEL':'./DADOS/rafael.csv',
+         'GEORGE':'george.csv',
+         'XINGU':'xingu.csv',
+         'LEO':'leo.csv',
+         'VITOR':'vitor.csv',
+         'RAFAEL':'rafael.csv',
         }
 
 for user in files:
