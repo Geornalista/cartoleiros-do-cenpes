@@ -1,3 +1,3 @@
 # cartoleiros-do-cenpes
 
-Arquivos atualizados após a Rodada 28
+Arquivos atualizados após a Rodada 29
