@@ -85,7 +85,7 @@ def figura1(dado,scout):
     return fig
 
 #================================
-rodada_atual = 31
+rodada_atual = 32
 
 rods = []
 for i in range(rodada_atual):
