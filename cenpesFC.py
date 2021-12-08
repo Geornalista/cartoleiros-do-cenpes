@@ -3,6 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
+#================================
+rodada_atual = 37
+#================================
+
 # FUNÇÕES ====================
 def pontos(df,rodada):
   texto = 'RODADA == '+str(rodada)
@@ -83,9 +87,6 @@ def figura1(dado,scout):
             color='white',fontsize=20
         )
     return fig
-
-#================================
-rodada_atual = 36
 
 rods = []
 for i in range(rodada_atual):
