@@ -211,13 +211,13 @@ if teste1 == 'RODADA':
     ax.grid(axis='y',color='k',alpha=0.3)
     ax.tick_params(axis='both', which='major', labelsize=20)
 
-    #rects = ax.patches
-    #for rect, label in zip(rects, R):
-    #    height = rect.get_height()
-    #    ax.text(
-    #        rect.get_x() + rect.get_width() / 2, height-5, label.round(2), ha="center", va="bottom",
-    #        color='white',fontsize=20
-    #    )
+    rects = ax.patches
+    for rect, label in zip(rects, R):
+        height = rect.get_height()
+        ax.text(
+            rect.get_x() + rect.get_width() / 2, height-10, label.round(2), ha="center", va="bottom",
+            color='white',fontsize=20
+        )
     st.pyplot(fig)
 
 #GRÁFICOS =========================================
