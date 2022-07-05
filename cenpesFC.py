@@ -93,11 +93,11 @@ for i in range(rodada_atual):
   rods.append(i+1)
 
 files = {
-         'GEORGE':'george.csv',
-         'XINGU':'xingu.csv',
-         'LEO':'leo.csv',
-         'VITOR':'vitor.csv',
-         'RAFAEL':'rafael.csv',
+         'GEORGE':'g_rodadas.csv',
+         'XINGU':'x_rodadas.csv',
+         'LEO':'l_rodadas.csv',
+         'VITOR':'v_rodadas.csv',
+         'RAFAEL':'r_rodadas.csv',
         }
 
 for user in files:
